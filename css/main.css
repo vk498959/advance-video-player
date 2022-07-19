@@ -1,0 +1,73 @@
+#bundle {
+    display: flex;
+
+}
+
+#seekbar {
+    height: 120%;
+}
+
+#playbackrate {
+    width: 20%;
+}
+
+#volumeBar {
+    width: 30%;
+}
+
+#re {
+    position: absolute;
+    top: 1%;
+    float: left;
+    width: 20%;
+    height: 60%;
+    opacity: 0;
+
+}
+
+#fo {
+    position: absolute;
+    top: 1%;
+    left: 80%;
+    float: right;
+    width: 20%;
+    height: 60%;
+    opacity: 0;
+}
+
+#bar1 {
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 82%;
+    opacity: 0;
+    transition: 0.9s;
+
+}
+
+#bar2 {
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 89.6%;
+    opacity: 0;
+    transition: 0.9s;
+}
+
+#main {
+
+    justify-content: center;
+}
+
+video {
+    display: block;
+    width: 100%;
+}
+
+#main:hover #bar1 {
+    opacity: 100;
+}
+
+#main:hover #bar2 {
+    opacity: 100;
+}
